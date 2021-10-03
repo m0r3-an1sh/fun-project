@@ -1,5 +1,9 @@
         /* navbar */
         
+        html {
+            scroll-behavior: smooth;
+        }
+        
         .row {
             margin-top: 0;
             margin-right: 0;
@@ -14,6 +18,7 @@
         .navbar {
             background-image: linear-gradient(to right, #a517ba, #5f1782);
             color: beige;
+            position: fixed;
         }
         
         .navbar-brand img {
@@ -50,6 +55,8 @@
             background-image: linear-gradient(to right, #a517ba, #5f1782);
             text-align: center;
             margin-bottom: 0;
+            padding-top: 35px;
+            position: static;
         }
         
         .banner p {
@@ -168,6 +175,6 @@
             .contactus p {
                 margin-top: 2px;
                 margin-right: 2px;
-                font-size: 5px;
+                font-size: 15px;
             }
         }
